@@ -1,0 +1,5 @@
+#!/usr/bin/env ruby
+
+require_relative "../lib/asheville_brewery_list.rb"
+
+CLI.new.test
