@@ -1,29 +1,21 @@
 class CLI
-  #greet user
-    def run
+  
+    def start
         system("clear")
-        greeting
-        #menu
-        
-        if menu != 'exit'
-        end
-        end_program
-    end    
-    
-    def greeting
         puts "Welcome to the Asheville Brewery List!"
+        puts "Loading..."
+        Api.brewery_data
+        main_menu
     end
 
-    def end_program
-        puts "Thank you for visiting, see you next time!"
-    end
-
-    def menu
-        puts "please make a selection for brewery information"
+    def main_menu
+        puts "Please type a number to select a brewery for information."
         list_options
-        input = gets.strip.downcase
-        choose_option(input)
-        return input
     end
+
+    def invalid
+        puts "Invalid, please try again."
+    end
+
 
 end

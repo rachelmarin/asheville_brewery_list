@@ -6,5 +6,5 @@ source "https://rubygems.org"
 gem "pry"
 gem "rake", "~> 12.0"
 gem "rest-client"
-#gem 'asheville_brewery_list'
 gem 'json'
+gem 'brewery_db'
