@@ -2,4 +2,4 @@
 
 require_relative "../lib/asheville_brewery_list.rb"
 
-CLI.new.test
+CLI.new.run
