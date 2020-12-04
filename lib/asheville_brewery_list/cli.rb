@@ -10,7 +10,7 @@ class Cli
 
     def main_menu_options
         puts "Type '1' for a list of brewery selections by name"
-        puts "Type 'exit' to exit program"
+        puts "or Type 'exit' to exit the program"
         main_menu
     end
 
@@ -30,7 +30,7 @@ class Cli
     end
 
     def invalid_choice
-        puts "Invalid. Please Try Again!"
+        puts "INVALID CHOICE. Please Try Again!"
     end
 
     def get_input
@@ -48,7 +48,7 @@ class Cli
 
     def brewery_details_menu_options
         puts "Type in the corresponding number next to the brewery you wish to know more about, then press enter."
-        puts "Or type 'exit' then press enter to exit program"
+        puts "Or type 'exit' then press enter to exit the program"
         brewery_details_menu
     end
 
@@ -83,8 +83,8 @@ class Cli
     end
 
     def select_again_or_exit
-        puts "Would you like to go back to the main menu or exit?"
-        puts "'1' for main menu"
+        puts "Would you like to go back to the MAIN MENU or exit?"
+        puts "Type '1' for the MAIN MENU"
         puts "'exit' to exit program"
         input = get_input
 
