@@ -2,7 +2,6 @@ class Cli
 
     def start
         system("clear")
-        puts "MAIN MENU"
         puts "Welcome to the Asheville Brewery List!"
         puts "Loading..."
         Api.get_data
@@ -10,6 +9,7 @@ class Cli
     end
 
     def main_menu_options
+        puts "MAIN MENU"
         puts "Type '1' for a list of brewery selections by name"
         puts "or Type 'exit' to exit the program"
         main_menu
