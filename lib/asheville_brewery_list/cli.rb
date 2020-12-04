@@ -9,7 +9,7 @@ class Cli
     end
 
     def main_menu_options
-        puts "Type '1' to for a list of brewery selection by name"
+        puts "Type '1' for a list of brewery selections by name"
         puts "Type 'exit' to exit program"
         main_menu
     end
