@@ -2,6 +2,7 @@ class Cli
 
     def start
         system("clear")
+        puts "MAIN MENU"
         puts "Welcome to the Asheville Brewery List!"
         puts "Loading..."
         Api.get_data
