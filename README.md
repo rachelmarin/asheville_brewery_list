@@ -19,7 +19,26 @@ Or install it yourself as:
 
 ## Usage
 
-TODO: Write usage instructions here
+run "bin/start" in the control line to start the program.
+follow the first set of instructions.
+ 
+" MAIN MENU
+ Type '1' for a list of brewery selections by name
+ or Type 'exit' to exit the program."
+
+ If you type one you will be shown a list of breweries, follow the next set of instructions.
+
+"Type in the corresponding number next to the brewery you wish to know more about, then press enter.
+Or type 'exit' then press enter to exit the program."
+
+you will be given a list of information about the brewery. next follow these instructions.
+
+"Would you like to go back to the MAIN MENU or exit?"
+Type '1' for the MAIN MENU.
+Type'exit' to exit program."
+
+typing '1' will loop you back to the beginning.
+
 
 ## Development
 

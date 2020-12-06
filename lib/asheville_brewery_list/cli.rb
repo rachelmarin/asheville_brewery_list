@@ -9,9 +9,11 @@ class Cli
     end
 
     def main_menu_options
-        puts "MAIN MENU"
+        puts "
+        MAIN MENU"
         puts "Type '1' for a list of brewery selections by name"
-        puts "or Type 'exit' to exit the program"
+        puts "or Type 'exit' to exit the program
+        "
         main_menu
     end
 
@@ -48,8 +50,10 @@ class Cli
     end
 
     def brewery_details_menu_options
-        puts "Type in the corresponding number next to the brewery you wish to know more about, then press enter."
-        puts "Or type 'exit' then press enter to exit the program"
+        puts "
+        Type in the corresponding number next to the brewery you wish to know more about, then press enter."
+        puts "        Or type 'exit' then press enter to exit the program.
+        "
         brewery_details_menu
     end
 
@@ -85,8 +89,9 @@ class Cli
 
     def select_again_or_exit
         puts "Would you like to go back to the MAIN MENU or exit?"
-        puts "Type '1' for the MAIN MENU"
-        puts "'exit' to exit program"
+        puts "Type '1' for the MAIN MENU."
+        puts "Type'exit' to exit program.
+        "
         input = get_input
 
         if input == '1'
